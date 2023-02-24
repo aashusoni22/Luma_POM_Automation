@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="39" passed="36" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-23T21:11:14 EST" name="Surefire suite" finished-at="2023-02-23T21:15:09 EST" duration-ms="234751">
+    <groups>
+    </groups>
+    <test started-at="2023-02-23T21:11:14 EST" name="Surefire test" finished-at="2023-02-23T21:15:09 EST" duration-ms="234751">
+      <class name="com.auto.qa.tests.GearPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.GearPageTest@1e802ef9]" started-at="2023-02-23T21:12:21 EST" name="setUp" finished-at="2023-02-23T21:12:27 EST" duration-ms="6071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateGearPageTitleTest()[pri:1, instance:com.auto.qa.tests.GearPageTest@1e802ef9]" started-at="2023-02-23T21:12:27 EST" name="validateGearPageTitleTest" finished-at="2023-02-23T21:12:27 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGearPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.GearPageTest@1e802ef9]" started-at="2023-02-23T21:12:27 EST" name="tearDown" finished-at="2023-02-23T21:12:27 EST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.GearPageTest@1e802ef9]" started-at="2023-02-23T21:12:27 EST" name="setUp" finished-at="2023-02-23T21:12:32 EST" duration-ms="4867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateGearLabelTest()[pri:2, instance:com.auto.qa.tests.GearPageTest@1e802ef9]" started-at="2023-02-23T21:12:32 EST" name="validateGearLabelTest" finished-at="2023-02-23T21:12:32 EST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGearLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.GearPageTest@1e802ef9]" started-at="2023-02-23T21:12:32 EST" name="tearDown" finished-at="2023-02-23T21:12:32 EST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.GearPageTest@1e802ef9]" started-at="2023-02-23T21:12:32 EST" name="setUp" finished-at="2023-02-23T21:12:37 EST" duration-ms="5049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="chooseItemAndAddToCartTest()[pri:3, instance:com.auto.qa.tests.GearPageTest@1e802ef9]" started-at="2023-02-23T21:12:37 EST" name="chooseItemAndAddToCartTest" finished-at="2023-02-23T21:12:39 EST" duration-ms="1947" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable: [object HTMLImageElement] has no size and location
+  (Session info: chrome=110.0.5481.105)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e42a2a2309462a111d8da8b44810ce89, actions {actions=[org.openqa.selenium.interactions.Sequence@1cd2143b]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\omson\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52326}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52326/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e42a2a2309462a111d8da8b44810ce89]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLImageElement] has no size and location
+  (Session info: chrome=110.0.5481.105)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e42a2a2309462a111d8da8b44810ce89, actions {actions=[org.openqa.selenium.interactions.Sequence@1cd2143b]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\omson\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52326}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52326/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e42a2a2309462a111d8da8b44810ce89
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:603)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
+at jdk.proxy2/jdk.proxy2.$Proxy12.perform(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.perform(EventFiringWebDriver.java:334)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+at com.auto.qa.util.TestUtil.action(TestUtil.java:30)
+at com.auto.qa.pages.GearPage.hoverOnFirstItem(GearPage.java:76)
+at com.auto.qa.tests.GearPageTest.chooseItemAndAddToCartTest(GearPageTest.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseItemAndAddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.GearPageTest@1e802ef9]" started-at="2023-02-23T21:12:39 EST" name="tearDown" finished-at="2023-02-23T21:12:39 EST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto.qa.tests.GearPageTest -->
+      <class name="com.auto.qa.tests.MenPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.MenPageTest@670002]" started-at="2023-02-23T21:13:19 EST" name="setUp" finished-at="2023-02-23T21:13:24 EST" duration-ms="4906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateMenPageTitleTest()[pri:1, instance:com.auto.qa.tests.MenPageTest@670002]" started-at="2023-02-23T21:13:24 EST" name="validateMenPageTitleTest" finished-at="2023-02-23T21:13:24 EST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMenPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.MenPageTest@670002]" started-at="2023-02-23T21:13:24 EST" name="tearDown" finished-at="2023-02-23T21:13:24 EST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.MenPageTest@670002]" started-at="2023-02-23T21:13:24 EST" name="setUp" finished-at="2023-02-23T21:13:29 EST" duration-ms="4807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateMenLabelTest()[pri:2, instance:com.auto.qa.tests.MenPageTest@670002]" started-at="2023-02-23T21:13:29 EST" name="validateMenLabelTest" finished-at="2023-02-23T21:13:29 EST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMenLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.MenPageTest@670002]" started-at="2023-02-23T21:13:29 EST" name="tearDown" finished-at="2023-02-23T21:13:29 EST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.MenPageTest@670002]" started-at="2023-02-23T21:13:29 EST" name="setUp" finished-at="2023-02-23T21:13:34 EST" duration-ms="4820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="chooseItemAndAddToCartTest()[pri:3, instance:com.auto.qa.tests.MenPageTest@670002]" started-at="2023-02-23T21:13:34 EST" name="chooseItemAndAddToCartTest" finished-at="2023-02-23T21:13:38 EST" duration-ms="3696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseItemAndAddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.MenPageTest@670002]" started-at="2023-02-23T21:13:38 EST" name="tearDown" finished-at="2023-02-23T21:13:38 EST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto.qa.tests.MenPageTest -->
+      <class name="com.auto.qa.tests.WomenPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.WomenPageTest@5ccddd20]" started-at="2023-02-23T21:14:48 EST" name="setUp" finished-at="2023-02-23T21:14:53 EST" duration-ms="4525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWomenPageTitleTest()[pri:1, instance:com.auto.qa.tests.WomenPageTest@5ccddd20]" started-at="2023-02-23T21:14:53 EST" name="validateWomenPageTitleTest" finished-at="2023-02-23T21:14:53 EST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWomenPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.WomenPageTest@5ccddd20]" started-at="2023-02-23T21:14:53 EST" name="tearDown" finished-at="2023-02-23T21:14:53 EST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.WomenPageTest@5ccddd20]" started-at="2023-02-23T21:14:53 EST" name="setUp" finished-at="2023-02-23T21:14:58 EST" duration-ms="4723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWomenLabelTest()[pri:2, instance:com.auto.qa.tests.WomenPageTest@5ccddd20]" started-at="2023-02-23T21:14:58 EST" name="validateWomenLabelTest" finished-at="2023-02-23T21:14:58 EST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWomenLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.WomenPageTest@5ccddd20]" started-at="2023-02-23T21:14:58 EST" name="tearDown" finished-at="2023-02-23T21:14:58 EST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.WomenPageTest@5ccddd20]" started-at="2023-02-23T21:14:58 EST" name="setUp" finished-at="2023-02-23T21:15:03 EST" duration-ms="5176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="chooseItemAndAddToCartTest()[pri:3, instance:com.auto.qa.tests.WomenPageTest@5ccddd20]" started-at="2023-02-23T21:15:03 EST" name="chooseItemAndAddToCartTest" finished-at="2023-02-23T21:15:09 EST" duration-ms="5875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseItemAndAddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.WomenPageTest@5ccddd20]" started-at="2023-02-23T21:15:09 EST" name="tearDown" finished-at="2023-02-23T21:15:09 EST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto.qa.tests.WomenPageTest -->
+      <class name="com.auto.qa.tests.WhatsNewPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.WhatsNewPageTest@96def03]" started-at="2023-02-23T21:14:34 EST" name="setUp" finished-at="2023-02-23T21:14:39 EST" duration-ms="4676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWhatsNewPageTitleTest()[pri:1, instance:com.auto.qa.tests.WhatsNewPageTest@96def03]" started-at="2023-02-23T21:14:39 EST" name="validateWhatsNewPageTitleTest" finished-at="2023-02-23T21:14:39 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWhatsNewPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.WhatsNewPageTest@96def03]" started-at="2023-02-23T21:14:39 EST" name="tearDown" finished-at="2023-02-23T21:14:39 EST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.WhatsNewPageTest@96def03]" started-at="2023-02-23T21:14:39 EST" name="setUp" finished-at="2023-02-23T21:14:43 EST" duration-ms="4579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateWhatsNewLabelTest()[pri:2, instance:com.auto.qa.tests.WhatsNewPageTest@96def03]" started-at="2023-02-23T21:14:43 EST" name="validateWhatsNewLabelTest" finished-at="2023-02-23T21:14:43 EST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWhatsNewLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.WhatsNewPageTest@96def03]" started-at="2023-02-23T21:14:43 EST" name="tearDown" finished-at="2023-02-23T21:14:43 EST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.WhatsNewPageTest@96def03]" started-at="2023-02-23T21:14:43 EST" name="setUp" finished-at="2023-02-23T21:14:48 EST" duration-ms="4489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="categoriesLsitTest()[pri:3, instance:com.auto.qa.tests.WhatsNewPageTest@96def03]" started-at="2023-02-23T21:14:48 EST" name="categoriesLsitTest" finished-at="2023-02-23T21:14:48 EST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoriesLsitTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.WhatsNewPageTest@96def03]" started-at="2023-02-23T21:14:48 EST" name="tearDown" finished-at="2023-02-23T21:14:48 EST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto.qa.tests.WhatsNewPageTest -->
+      <class name="com.auto.qa.tests.LandingPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.LandingPageTest@778d1062]" started-at="2023-02-23T21:13:09 EST" name="setUp" finished-at="2023-02-23T21:13:11 EST" duration-ms="1953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="landingPageTitleTest()[pri:0, instance:com.auto.qa.tests.LandingPageTest@778d1062]" started-at="2023-02-23T21:13:11 EST" name="landingPageTitleTest" finished-at="2023-02-23T21:13:11 EST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.LandingPageTest@778d1062]" started-at="2023-02-23T21:13:11 EST" name="tearDown" finished-at="2023-02-23T21:13:11 EST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.LandingPageTest@778d1062]" started-at="2023-02-23T21:13:11 EST" name="setUp" finished-at="2023-02-23T21:13:13 EST" duration-ms="1936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pageLogoTest()[pri:1, instance:com.auto.qa.tests.LandingPageTest@778d1062]" started-at="2023-02-23T21:13:13 EST" name="pageLogoTest" finished-at="2023-02-23T21:13:13 EST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.LandingPageTest@778d1062]" started-at="2023-02-23T21:13:13 EST" name="tearDown" finished-at="2023-02-23T21:13:13 EST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.LandingPageTest@778d1062]" started-at="2023-02-23T21:13:13 EST" name="setUp" finished-at="2023-02-23T21:13:15 EST" duration-ms="1854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoginButtonTest()[pri:2, instance:com.auto.qa.tests.LandingPageTest@778d1062]" started-at="2023-02-23T21:13:15 EST" name="clickLoginButtonTest" finished-at="2023-02-23T21:13:16 EST" duration-ms="1462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoginButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.LandingPageTest@778d1062]" started-at="2023-02-23T21:13:16 EST" name="tearDown" finished-at="2023-02-23T21:13:16 EST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.LandingPageTest@778d1062]" started-at="2023-02-23T21:13:16 EST" name="setUp" finished-at="2023-02-23T21:13:18 EST" duration-ms="1941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickRegisterButtonTest()[pri:3, instance:com.auto.qa.tests.LandingPageTest@778d1062]" started-at="2023-02-23T21:13:18 EST" name="clickRegisterButtonTest" finished-at="2023-02-23T21:13:19 EST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRegisterButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.LandingPageTest@778d1062]" started-at="2023-02-23T21:13:19 EST" name="tearDown" finished-at="2023-02-23T21:13:19 EST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto.qa.tests.LandingPageTest -->
+      <class name="com.auto.qa.tests.CreateAnAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:11:14 EST" name="setUp" finished-at="2023-02-23T21:11:18 EST" duration-ms="3718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateAccPageTitleTest()[pri:1, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:11:18 EST" name="validateCreateAccPageTitleTest" finished-at="2023-02-23T21:11:18 EST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateAccPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:11:18 EST" name="tearDown" finished-at="2023-02-23T21:11:18 EST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:11:18 EST" name="setUp" finished-at="2023-02-23T21:11:21 EST" duration-ms="2829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateAnAccountLabelTest()[pri:2, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:11:21 EST" name="validateCreateAnAccountLabelTest" finished-at="2023-02-23T21:11:21 EST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateAnAccountLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:11:21 EST" name="tearDown" finished-at="2023-02-23T21:11:21 EST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:11:22 EST" name="setUp" finished-at="2023-02-23T21:11:24 EST" duration-ms="2816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:11:24 EST" name="createAccountTest" data-provider="getAccountCreationData" finished-at="2023-02-23T21:11:46 EST" duration-ms="21753" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[john12@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123asd@@]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123asd@@]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),"Thank you for registering with Fake Online Clothing Store.")]"}
+  (Session info: chrome=110.0.5481.105)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bad3a7d212d192981b4deadc205d70b, findElement {using=xpath, value=//div[contains(text(),"Thank you for registering with Fake Online Clothing Store.")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\omson\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52067/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bad3a7d212d192981b4deadc205d70b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),"Thank you for registering with Fake Online Clothing Store.")]"}
+  (Session info: chrome=110.0.5481.105)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bad3a7d212d192981b4deadc205d70b, findElement {using=xpath, value=//div[contains(text(),"Thank you for registering with Fake Online Clothing Store.")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\omson\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52067/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bad3a7d212d192981b4deadc205d70b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
+at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+at com.auto.qa.pages.CreateAnAccountPage.accountCreatedMsg(CreateAnAccountPage.java:66)
+at com.auto.qa.tests.CreateAnAccountTest.createAccountTest(CreateAnAccountTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:11:46 EST" name="tearDown" finished-at="2023-02-23T21:11:46 EST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:11:46 EST" name="setUp" finished-at="2023-02-23T21:11:49 EST" duration-ms="2695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createAccountTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:11:49 EST" name="createAccountTest" data-provider="getAccountCreationData" finished-at="2023-02-23T21:12:11 EST" duration-ms="21654" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mic]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Loyyd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mloydd11@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[234rty!@]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[234rty!@]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),"Thank you for registering with Fake Online Clothing Store.")]"}
+  (Session info: chrome=110.0.5481.105)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e615b3f493f85bfa70057e1fd62e37f, findElement {using=xpath, value=//div[contains(text(),"Thank you for registering with Fake Online Clothing Store.")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\omson\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52135}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52135/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e615b3f493f85bfa70057e1fd62e37f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),"Thank you for registering with Fake Online Clothing Store.")]"}
+  (Session info: chrome=110.0.5481.105)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3e615b3f493f85bfa70057e1fd62e37f, findElement {using=xpath, value=//div[contains(text(),"Thank you for registering with Fake Online Clothing Store.")]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\omson\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52135}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52135/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e615b3f493f85bfa70057e1fd62e37f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
+at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+at com.auto.qa.pages.CreateAnAccountPage.accountCreatedMsg(CreateAnAccountPage.java:66)
+at com.auto.qa.tests.CreateAnAccountTest.createAccountTest(CreateAnAccountTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:12:11 EST" name="tearDown" finished-at="2023-02-23T21:12:11 EST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:12:11 EST" name="setUp" finished-at="2023-02-23T21:12:14 EST" duration-ms="3499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createAccountWithSameDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:12:14 EST" name="createAccountWithSameDataTest" data-provider="getAccountCreationData" finished-at="2023-02-23T21:12:16 EST" duration-ms="1633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[john12@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123asd@@]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123asd@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithSameDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:12:16 EST" name="tearDown" finished-at="2023-02-23T21:12:16 EST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:12:16 EST" name="setUp" finished-at="2023-02-23T21:12:19 EST" duration-ms="2677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createAccountWithSameDataTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:12:19 EST" name="createAccountWithSameDataTest" data-provider="getAccountCreationData" finished-at="2023-02-23T21:12:20 EST" duration-ms="1527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mic]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Loyyd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mloydd11@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[234rty!@]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[234rty!@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithSameDataTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.CreateAnAccountTest@7b227d8d]" started-at="2023-02-23T21:12:20 EST" name="tearDown" finished-at="2023-02-23T21:12:21 EST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto.qa.tests.CreateAnAccountTest -->
+      <class name="com.auto.qa.tests.SignInPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.SignInPageTest@56528192]" started-at="2023-02-23T21:14:09 EST" name="setUp" finished-at="2023-02-23T21:14:11 EST" duration-ms="2665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signInPageTitleTest()[pri:1, instance:com.auto.qa.tests.SignInPageTest@56528192]" started-at="2023-02-23T21:14:11 EST" name="signInPageTitleTest" finished-at="2023-02-23T21:14:11 EST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.SignInPageTest@56528192]" started-at="2023-02-23T21:14:11 EST" name="tearDown" finished-at="2023-02-23T21:14:11 EST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.SignInPageTest@56528192]" started-at="2023-02-23T21:14:11 EST" name="setUp" finished-at="2023-02-23T21:14:14 EST" duration-ms="2742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerLoginTitleTest()[pri:2, instance:com.auto.qa.tests.SignInPageTest@56528192]" started-at="2023-02-23T21:14:14 EST" name="customerLoginTitleTest" finished-at="2023-02-23T21:14:14 EST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerLoginTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.SignInPageTest@56528192]" started-at="2023-02-23T21:14:14 EST" name="tearDown" finished-at="2023-02-23T21:14:14 EST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.SignInPageTest@56528192]" started-at="2023-02-23T21:14:14 EST" name="setUp" finished-at="2023-02-23T21:14:17 EST" duration-ms="2691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.auto.qa.tests.SignInPageTest@56528192]" started-at="2023-02-23T21:14:17 EST" name="loginTest" finished-at="2023-02-23T21:14:18 EST" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.SignInPageTest@56528192]" started-at="2023-02-23T21:14:18 EST" name="tearDown" finished-at="2023-02-23T21:14:18 EST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto.qa.tests.SignInPageTest -->
+      <class name="com.auto.qa.tests.SearchItemPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.SearchItemPageTest@49c386c8]" started-at="2023-02-23T21:13:53 EST" name="setUp" finished-at="2023-02-23T21:13:58 EST" duration-ms="5022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSearchResultItemsTest()[pri:0, instance:com.auto.qa.tests.SearchItemPageTest@49c386c8]" started-at="2023-02-23T21:13:58 EST" name="validateSearchResultItemsTest" finished-at="2023-02-23T21:13:58 EST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchResultItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.SearchItemPageTest@49c386c8]" started-at="2023-02-23T21:13:58 EST" name="tearDown" finished-at="2023-02-23T21:13:58 EST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.SearchItemPageTest@49c386c8]" started-at="2023-02-23T21:13:58 EST" name="setUp" finished-at="2023-02-23T21:14:03 EST" duration-ms="5315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSearchResultPageTitleTest()[pri:0, instance:com.auto.qa.tests.SearchItemPageTest@49c386c8]" started-at="2023-02-23T21:14:03 EST" name="validateSearchResultPageTitleTest" finished-at="2023-02-23T21:14:03 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchResultPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.SearchItemPageTest@49c386c8]" started-at="2023-02-23T21:14:03 EST" name="tearDown" finished-at="2023-02-23T21:14:03 EST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.SearchItemPageTest@49c386c8]" started-at="2023-02-23T21:14:03 EST" name="setUp" finished-at="2023-02-23T21:14:08 EST" duration-ms="5149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSearchResultsLMsgTest()[pri:0, instance:com.auto.qa.tests.SearchItemPageTest@49c386c8]" started-at="2023-02-23T21:14:08 EST" name="validateSearchResultsLMsgTest" finished-at="2023-02-23T21:14:08 EST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchResultsLMsgTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.SearchItemPageTest@49c386c8]" started-at="2023-02-23T21:14:08 EST" name="tearDown" finished-at="2023-02-23T21:14:09 EST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto.qa.tests.SearchItemPageTest -->
+      <class name="com.auto.qa.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:12:39 EST" name="setUp" finished-at="2023-02-23T21:12:43 EST" duration-ms="4324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomePageTitleTest()[pri:1, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:12:43 EST" name="validateHomePageTitleTest" finished-at="2023-02-23T21:12:43 EST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:12:43 EST" name="tearDown" finished-at="2023-02-23T21:12:43 EST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:12:43 EST" name="setUp" finished-at="2023-02-23T21:12:48 EST" duration-ms="4239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateUserNameTest()[pri:2, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:12:48 EST" name="validateUserNameTest" finished-at="2023-02-23T21:12:49 EST" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:12:49 EST" name="tearDown" finished-at="2023-02-23T21:12:49 EST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:12:49 EST" name="setUp" finished-at="2023-02-23T21:12:53 EST" duration-ms="4179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnWhatsNewButtonTest()[pri:3, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:12:53 EST" name="clickOnWhatsNewButtonTest" finished-at="2023-02-23T21:12:54 EST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnWhatsNewButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:12:54 EST" name="tearDown" finished-at="2023-02-23T21:12:54 EST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:12:54 EST" name="setUp" finished-at="2023-02-23T21:12:58 EST" duration-ms="4017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnMenButtonTest()[pri:4, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:12:58 EST" name="clickOnMenButtonTest" finished-at="2023-02-23T21:13:03 EST" duration-ms="4924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMenButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:13:03 EST" name="tearDown" finished-at="2023-02-23T21:13:03 EST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:13:03 EST" name="setUp" finished-at="2023-02-23T21:13:07 EST" duration-ms="4058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchForItemAndValidateSearchBtnTest()[pri:5, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:13:07 EST" name="searchForItemAndValidateSearchBtnTest" finished-at="2023-02-23T21:13:09 EST" duration-ms="1723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForItemAndValidateSearchBtnTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.HomePageTest@2b6faea6]" started-at="2023-02-23T21:13:09 EST" name="tearDown" finished-at="2023-02-23T21:13:09 EST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto.qa.tests.HomePageTest -->
+      <class name="com.auto.qa.tests.SalePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.SalePageTest@1f0f1111]" started-at="2023-02-23T21:13:38 EST" name="setUp" finished-at="2023-02-23T21:13:43 EST" duration-ms="5203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSalePageTitleTest()[pri:1, instance:com.auto.qa.tests.SalePageTest@1f0f1111]" started-at="2023-02-23T21:13:43 EST" name="validateSalePageTitleTest" finished-at="2023-02-23T21:13:43 EST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSalePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.SalePageTest@1f0f1111]" started-at="2023-02-23T21:13:43 EST" name="tearDown" finished-at="2023-02-23T21:13:43 EST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.SalePageTest@1f0f1111]" started-at="2023-02-23T21:13:43 EST" name="setUp" finished-at="2023-02-23T21:13:48 EST" duration-ms="4610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSaleLabelTest()[pri:2, instance:com.auto.qa.tests.SalePageTest@1f0f1111]" started-at="2023-02-23T21:13:48 EST" name="validateSaleLabelTest" finished-at="2023-02-23T21:13:48 EST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSaleLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.SalePageTest@1f0f1111]" started-at="2023-02-23T21:13:48 EST" name="tearDown" finished-at="2023-02-23T21:13:48 EST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.SalePageTest@1f0f1111]" started-at="2023-02-23T21:13:48 EST" name="setUp" finished-at="2023-02-23T21:13:52 EST" duration-ms="4472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDealsTextAndPromoOfferTest()[pri:3, instance:com.auto.qa.tests.SalePageTest@1f0f1111]" started-at="2023-02-23T21:13:52 EST" name="validateDealsTextAndPromoOfferTest" finished-at="2023-02-23T21:13:53 EST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDealsTextAndPromoOfferTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.SalePageTest@1f0f1111]" started-at="2023-02-23T21:13:53 EST" name="tearDown" finished-at="2023-02-23T21:13:53 EST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto.qa.tests.SalePageTest -->
+      <class name="com.auto.qa.tests.TrainingPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.TrainingPageTest@6e0dec4a]" started-at="2023-02-23T21:14:18 EST" name="setUp" finished-at="2023-02-23T21:14:23 EST" duration-ms="4748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTrainingPageTitleTest()[pri:1, instance:com.auto.qa.tests.TrainingPageTest@6e0dec4a]" started-at="2023-02-23T21:14:23 EST" name="validateTrainingPageTitleTest" finished-at="2023-02-23T21:14:23 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTrainingPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.TrainingPageTest@6e0dec4a]" started-at="2023-02-23T21:14:23 EST" name="tearDown" finished-at="2023-02-23T21:14:23 EST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.TrainingPageTest@6e0dec4a]" started-at="2023-02-23T21:14:23 EST" name="setUp" finished-at="2023-02-23T21:14:28 EST" duration-ms="4655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTrainingLabelTest()[pri:2, instance:com.auto.qa.tests.TrainingPageTest@6e0dec4a]" started-at="2023-02-23T21:14:28 EST" name="validateTrainingLabelTest" finished-at="2023-02-23T21:14:28 EST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTrainingLabelTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.TrainingPageTest@6e0dec4a]" started-at="2023-02-23T21:14:28 EST" name="tearDown" finished-at="2023-02-23T21:14:28 EST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.auto.qa.tests.TrainingPageTest@6e0dec4a]" started-at="2023-02-23T21:14:28 EST" name="setUp" finished-at="2023-02-23T21:14:33 EST" duration-ms="4566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="chooseWatchesAndAddtoCartTest()[pri:3, instance:com.auto.qa.tests.TrainingPageTest@6e0dec4a]" started-at="2023-02-23T21:14:33 EST" name="chooseWatchesAndAddtoCartTest" finished-at="2023-02-23T21:14:34 EST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseWatchesAndAddtoCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.auto.qa.tests.TrainingPageTest@6e0dec4a]" started-at="2023-02-23T21:14:34 EST" name="tearDown" finished-at="2023-02-23T21:14:34 EST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auto.qa.tests.TrainingPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

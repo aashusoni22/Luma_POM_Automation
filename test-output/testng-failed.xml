@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Luma Application Test Suite]">
+  <listeners>
+    <listener class-name="com.auto.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Luma Application(failed)">
+    <classes>
+      <class name="com.auto.qa.tests.CreateAnAccountTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="createAccountTest" invocation-numbers="0 1"/>
+          <include name="createAccountWithSameDataTest"/>
+        </methods>
+      </class> <!-- com.auto.qa.tests.CreateAnAccountTest -->
+    </classes>
+  </test> <!-- Luma Application(failed) -->
+</suite> <!-- Failed suite [Luma Application Test Suite] -->

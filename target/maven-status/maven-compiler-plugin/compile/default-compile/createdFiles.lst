@@ -1,0 +1,15 @@
+com\auto\qa\pages\GearPage.class
+com\auto\qa\pages\HomePage.class
+com\auto\qa\pages\SalePage.class
+com\auto\qa\pages\CreateAnAccountPage.class
+com\auto\qa\pages\SearchItemPage.class
+com\auto\qa\pages\MenPage.class
+com\auto\qa\util\TestUtil.class
+com\auto\qa\util\WebEventListener.class
+com\auto\qa\pages\SignInPage.class
+com\auto\qa\pages\WomenPage.class
+com\auto\qa\pages\LandingPage.class
+com\auto\qa\pages\TrainingPage.class
+com\auto\ExtentReportListener\ExtentReportListener.class
+com\auto\qa\base\BaseClass.class
+com\auto\qa\pages\WhatsNewPage.class

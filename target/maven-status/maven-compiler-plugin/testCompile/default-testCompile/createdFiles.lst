@@ -1,0 +1,11 @@
+com\auto\qa\tests\WomenPageTest.class
+com\auto\qa\tests\SearchItemPageTest.class
+com\auto\qa\tests\TrainingPageTest.class
+com\auto\qa\tests\SignInPageTest.class
+com\auto\qa\tests\CreateAnAccountTest.class
+com\auto\qa\tests\LandingPageTest.class
+com\auto\qa\tests\SalePageTest.class
+com\auto\qa\tests\HomePageTest.class
+com\auto\qa\tests\MenPageTest.class
+com\auto\qa\tests\WhatsNewPageTest.class
+com\auto\qa\tests\GearPageTest.class

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Luma Application Test Suite">
+	<test name="Luma Application">
+		<classes>
+			<class name="com.auto.qa.tests.LandingPageTest" />
+			<class name="com.auto.qa.tests.SignInPageTest" />
+			<class name="com.auto.qa.tests.HomePageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

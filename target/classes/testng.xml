@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Luma Application Test Suite">
+	
+	
+	<listeners>
+		<listener class-name="com.auto.ExtentReportListener.ExtentReportListener" />
+	</listeners>
+	
+
+	<test name="Luma Application">
+		<classes>
+			<class name="com.auto.qa.tests.LandingPageTest" />
+			<class name="com.auto.qa.tests.CreateAnAccountTest" />
+			<class name="com.auto.qa.tests.SignInPageTest" />
+			<class name="com.auto.qa.tests.HomePageTest" />
+			<class name="com.auto.qa.tests.WhatsNewPageTest" />
+			<class name="com.auto.qa.tests.MenPageTest" />
+			<class name="com.auto.qa.tests.WomenPageTest" />
+			<class name="com.auto.qa.tests.GearPageTest" />
+			<class name="com.auto.qa.tests.TrainingPageTest" />
+			<class name="com.auto.qa.tests.SalePageTest" />
+			<class name="com.auto.qa.tests.SearchItemPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
