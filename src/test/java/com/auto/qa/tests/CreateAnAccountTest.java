@@ -1,6 +1,8 @@
 package com.auto.qa.tests;
 
-import org.openxml4j.exceptions.InvalidFormatException;
+import java.util.Random;
+
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -51,15 +53,19 @@ public class CreateAnAccountTest extends BaseClass {
 	}
 
 	@DataProvider
-	public Object[][] getAccountCreationData() throws InvalidFormatException{
+	public Object[][] getAccountCreationData() throws InvalidFormatException {
 		Object data[][] = TestUtil.getTestData(sheetName);
 		return data;
 	}
 
+	String email;
+
 	@Test(priority = 3, dataProvider = "getAccountCreationData")
 	public void createAccountTest(String firstName, String lastName, String email, String password,
 			String confirmPassword) throws InterruptedException {
-		homePage = createAnAccPage.createAccount(firstName, lastName, email, password, confirmPassword);
+		char randomChar = (char) (new Random().nextInt(26) + 'a');
+		this.email = randomChar + email;
+		homePage = createAnAccPage.createAccount(firstName, lastName, this.email, password, confirmPassword);
 		boolean success = createAnAccPage.accountCreatedMsg();
 		Assert.assertTrue(success, "Account Creation Success Message not found");
 	}
@@ -67,7 +73,7 @@ public class CreateAnAccountTest extends BaseClass {
 	@Test(priority = 4, dataProvider = "getAccountCreationData")
 	public void createAccountWithSameDataTest(String firstName, String lastName, String email, String password,
 			String confirmPassword) throws InterruptedException {
-		homePage = createAnAccPage.createAccount(firstName, lastName, email, password, confirmPassword);
+		homePage = createAnAccPage.createAccount(firstName, lastName, this.email, password, confirmPassword);
 		boolean alreadyExists = createAnAccPage.accountAlreadyExistsMsg();
 		Assert.assertTrue(alreadyExists,
 				"There is already an account with this email address. If you are sure that it is your email address");

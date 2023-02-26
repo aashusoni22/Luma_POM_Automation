@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.auto.qa.tests.GearPageTest">
+      <class name="com.auto.qa.tests.CreateAnAccountTest">
         <methods>
-          <include name="validateGearLabelTest"/>
-          <include name="chooseItemAndAddToCartTest"/>
           <include name="setUp"/>
-          <include name="validateGearPageTitleTest"/>
           <include name="tearDown"/>
+          <include name="createAccountTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.auto.qa.tests.GearPageTest -->
+      </class> <!-- com.auto.qa.tests.CreateAnAccountTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

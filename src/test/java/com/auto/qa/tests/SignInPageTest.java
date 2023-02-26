@@ -41,8 +41,8 @@ public class SignInPageTest extends BaseClass {
 	}
 
 	@Test(priority = 3)
-	public void loginTest() throws InterruptedException {
-		homePage = signinPage.login(prop.getProperty("email_login"), prop.getProperty("password_login"));
+	public void loginTest(){
+		homePage = signinPage.login(prop.getProperty("email"), prop.getProperty("password"));
 	}
 
 	@AfterMethod
