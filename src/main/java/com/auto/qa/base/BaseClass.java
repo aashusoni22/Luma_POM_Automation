@@ -24,7 +24,7 @@ public class BaseClass {
 
 		try {
 			FileInputStream f = new FileInputStream(
-					"C:\\Users\\omson\\eclipse-workspace\\Luma_POM_Automation\\src\\main\\java\\com\\auto\\qa\\testdata\\CreateAccount.xlsx");
+					"C:\\Users\\omson\\eclipse-workspace\\Luma_POM_Automation\\src\\main\\java\\com\\auto\\qa\\config\\config.properties");
 			prop = new Properties();
 			prop.load(f);
 		} catch (FileNotFoundException e) {

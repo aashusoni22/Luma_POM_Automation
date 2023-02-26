@@ -22,7 +22,7 @@ public class CreateAnAccountTest extends BaseClass {
 	CreateAnAccountPage createAnAccPage;
 	TestUtil testUtil;
 
-	String sheetName = "Account";
+	String sheetName = "account";
 
 	public CreateAnAccountTest() {
 		super();
@@ -51,7 +51,7 @@ public class CreateAnAccountTest extends BaseClass {
 	}
 
 	@DataProvider
-	public Object[][] getAccountCreationData() throws InvalidFormatException {
+	public Object[][] getAccountCreationData() throws InvalidFormatException{
 		Object data[][] = TestUtil.getTestData(sheetName);
 		return data;
 	}
