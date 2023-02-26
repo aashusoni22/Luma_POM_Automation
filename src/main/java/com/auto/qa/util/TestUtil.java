@@ -21,7 +21,7 @@ public class TestUtil extends BaseClass {
 
 	public static long PAGE_LOAD_TIMEOUT = 20;
 	public static long IMPLICIT_WAIT = 20;
-	public static String TESTDATA_SHEET_PATH = "E:\\QA Automation Classes\\CreateAccount.xlsx";
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\omson\\eclipse-workspace\\Luma_POM_Automation\\src\\main\\java\\com\\auto\\qa\\testdata\\CreateAccount.xlsx";
 	static Workbook book;
 	static Sheet sheet;
 

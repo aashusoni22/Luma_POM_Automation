@@ -2,6 +2,7 @@ package com.auto.qa.tests;
 
 import java.util.Random;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -63,8 +64,8 @@ public class CreateAnAccountTest extends BaseClass {
 	@Test(priority = 3, dataProvider = "getAccountCreationData")
 	public void createAccountTest(String firstName, String lastName, String email, String password,
 			String confirmPassword) throws InterruptedException {
-		char randomChar = (char) (new Random().nextInt(26) + 'a');
-		this.email = randomChar + email;
+		String randomString = RandomStringUtils.randomAlphabetic(5);
+		this.email = randomString + email;
 		homePage = createAnAccPage.createAccount(firstName, lastName, this.email, password, confirmPassword);
 		boolean success = createAnAccPage.accountCreatedMsg();
 		Assert.assertTrue(success, "Account Creation Success Message not found");
