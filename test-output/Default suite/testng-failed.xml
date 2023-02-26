@@ -6,8 +6,11 @@
       <class name="com.auto.qa.tests.CreateAnAccountTest">
         <methods>
           <include name="setUp"/>
-          <include name="createAccountTest" invocation-numbers="0"/>
+          <include name="validateCreateAnAccountLabelTest"/>
+          <include name="createAccountTest"/>
           <include name="tearDown"/>
+          <include name="createAccountWithSameDataTest"/>
+          <include name="validateCreateAccPageTitleTest"/>
         </methods>
       </class> <!-- com.auto.qa.tests.CreateAnAccountTest -->
     </classes>
